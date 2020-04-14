@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
+/*
+Color pallete:
+#OC4767
+Dark Imperial Blue
+#D5EAF6
+Azureish White
+#A7C6DA
+Light Steel Blue
+#EEFCCE
+Light Goldenrod Yellow
+#880D1E
+Burgundy
+
+*/
+
 body {
     padding:0px;
     margin:0px;
@@ -14,7 +29,8 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background:rgb(255, 50, 50);
+    /* background:rgb(255, 50, 50); */
+    background: #0C4767;
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -26,10 +42,12 @@ body {
     width:50px;
     height:50px;
     border:12px solid #fff;
-    border-bottom:12px solid rgb(255, 50, 50);
+    /* border-bottom:12px solid rgb(255, 50, 50); */
+    border-bottom:12px solid #A7C6DA;
     border-radius:50%;
     margin:0;
 }
+
 @keyframes rotate {
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
@@ -47,10 +65,12 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:rgb(255, 50, 50);
+    /* background:rgb(255, 50, 50); */
+    background: #0C4767;
 }
 .box2 {
-    background:rgb(255, 50, 50);
+    /* background:rgb(255, 50, 50); */
+    background: #0C4767;
     margin-left:-5px;
 }
 #menu {
@@ -78,8 +98,9 @@ body {
     color:#fff;
     padding-bottom:10vh;
 }
+/* hero name */
 #middle h1 {
-    color:rgb(255, 50, 50);
+    color:#A7C6DA;
     font-size:70px;
     text-decoration:underline;
 }
@@ -101,7 +122,7 @@ body {
     transition:0.4s ease-in-out;
     border-radius:0px 0px 100px 100px;
 }
-#work {
+#courses {
     width:10vw;
     height:10vw;
     text-align:center;
@@ -136,16 +157,17 @@ body {
     transition:0.4s ease-in-out;
     border-radius:100px 100px 0px 0px;
 }
+/* 3 side menus */
 #about:hover {
-    background:rgba(255,50,50,0.9);
+    background: #0C4767;
     cursor:pointer;
 }
-#work:hover {
-    background:rgba(255,50,50,0.9);
+#courses:hover {
+    background: #0C4767;
     cursor:pointer;
 }
 #contact:hover {
-    background:rgba(255,50,50,0.9);
+    background: #0C4767;
     cursor:pointer;
 }
 #middle table {
@@ -171,7 +193,7 @@ body {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(255, 50, 50);
+    background:#0C4767;
     color:#fff;
     z-index:9;
     position:fixed;
@@ -327,7 +349,7 @@ body {
     #contact {
         display:none;
     }
-    #work {
+    #courses {
         display:none;
     }
     #footer {

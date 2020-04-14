@@ -12,18 +12,18 @@ function closeabout(){
         $("#about_container").css("display","none");
     },800);
 }
-function showwork(){
-    $("#work_container").css("display","inherit");
-    $("#work_container").addClass("animated slideInRight");
+function showcourses(){
+    $("#courses_container").css("display","inherit");
+    $("#courses_container").addClass("animated slideInRight");
     setTimeout(function(){
-        $("#work_container").removeClass("animated slideInRight");
+        $("#courses_container").removeClass("animated slideInRight");
     },800);
 }
-function closework(){
-    $("#work_container").addClass("animated slideOutRight");
+function closecourses(){
+    $("#courses_container").addClass("animated slideOutRight");
     setTimeout(function(){
-        $("#work_container").removeClass("animated slideOutRight");
-        $("#work_container").css("display","none");
+        $("#courses_container").removeClass("animated slideOutRight");
+        $("#courses_container").css("display","none");
     },800);
 }
 function showcontact(){
@@ -40,6 +40,8 @@ function closecontact(){
         $("#contact_container").css("display","none");
     },800);
 }
+
+
 setTimeout(function(){
     $("#loading").addClass("animated fadeOut");
     setTimeout(function(){
@@ -48,6 +50,6 @@ setTimeout(function(){
       $("#box").css("display","none");
       $("#about").removeClass("animated fadeIn");
       $("#contact").removeClass("animated fadeIn");
-      $("#work").removeClass("animated fadeIn");
+      $("#courses").removeClass("animated fadeIn");
     },1000);
 },1500);
